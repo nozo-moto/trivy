@@ -134,6 +134,11 @@ const (
 	// =======
 	TypeRedHatContentManifestType Type = "redhat-content-manifest"
 	TypeRedHatDockerfileType      Type = "redhat-dockerfile"
+
+	// =======
+	// Binary
+	// =======
+	TypeBinary Type = "binary"
 )
 
 var (
@@ -159,6 +164,7 @@ var (
 		TypeRpm,
 		TypeRpmqa,
 		TypeApkRepo,
+		TypeBinary,
 	}
 
 	// TypeLanguages has all language analyzers
